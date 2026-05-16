@@ -1,0 +1,27 @@
+name: Feature
+description: 小機能追加の練習Issue
+title: "feat: "
+labels: ["practice", "feature"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目的
+      description: 何をできるようにしたいですか？
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: スコープ
+      description: 今回やること・やらないことを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: dod
+    attributes:
+      label: DoD
+      description: 完了条件を書いてください。
+    validations:
+      required: true
+

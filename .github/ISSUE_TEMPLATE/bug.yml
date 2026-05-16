@@ -1,0 +1,27 @@
+name: Bug fix
+description: バグ修正の練習Issue
+title: "fix: "
+labels: ["practice", "bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 問題
+      description: 何が起きていますか？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 再現手順
+      description: どうすると再現しますか？
+    validations:
+      required: true
+  - type: textarea
+    id: dod
+    attributes:
+      label: DoD
+      description: 完了条件を書いてください。
+    validations:
+      required: true
+

@@ -1,0 +1,12 @@
+{
+  "name": "kou-ai-training-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node --check src/tasks.js && node --check src/render.js && node --check tests/tasks.test.js",
+    "test": "node --test",
+    "build": "node src/render.js"
+  }
+}
+
